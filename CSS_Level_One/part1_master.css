@@ -1,0 +1,22 @@
+/*This is a comment */
+
+/* general syntax
+selected tag{
+  property: value
+} */
+
+h1{
+  color: red;
+}
+
+li{
+  color: rgb(58, 106, 183);
+}
+
+p{
+  color: #60a84a
+}
+
+h4{
+  color: rgba(58, 106, 183, 0.5)
+}

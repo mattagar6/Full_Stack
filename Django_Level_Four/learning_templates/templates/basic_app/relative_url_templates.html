@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>WELCOME TO RELATIVE URL TEMPLATES</h1>
+    <!-- implementing relative urls with template tags -->
+    <!-- app_name:name -->
+    <a href="{% url 'basic_app:other' %}">OTHER PAGE</a>
+    <!-- a link to the admin interface -->
+    <a href="{% url 'admin:index' %}">ADMIN interface</a>
+    <!-- a link to the index page -->
+    <a href="{% url 'index' %}">LINK TO INDEX</a>
+
+  </body>
+</html>

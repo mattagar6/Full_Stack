@@ -1,0 +1,19 @@
+
+body{
+  background-image: url(https://list25.com/wp-content/uploads/2013/08/puppies.jpg);
+}
+
+div{
+  border-color: blue;
+  border-style: dotted;
+  border-width: medium;
+  border-radius: 10px;
+}
+
+p{
+  color:black;
+}
+
+span{
+  background-color: lightgreen;
+}

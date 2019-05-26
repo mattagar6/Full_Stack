@@ -1,0 +1,8 @@
+.container h1{
+  text-align: center;
+}
+
+.btn-primary{
+  background-color: red;
+  border-color: red;
+}

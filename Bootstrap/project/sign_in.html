@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap Project Signup</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="proj_formatting.css">
+    <link href="https://fonts.googleapis.com/css?family=Kodchasan" rel="stylesheet">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a id='brand' class="navbar-brand" href="#">Welcome</a>
+
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <!-- This is the actual code that creates the "hamburger icon" -->
+      <!-- The data-target grabs ids to put into the icon -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Anything inside of collapse navbar-collapse goes into the "hamburger" -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="navbar-nav">
+          <!-- the span class "sr-only" tells screen readers that Home is the active link, for accessibility -->
+          <a id='signIn' class="nav-item nav-link active" href="C:\Users\matta\OneDrive\Desktop\Full-Stack_Web_Dev\Bootstrap\project\main.html">Landing Page<span class="sr-only">(current)</span></a>
+        </div> <!-- /.navbar-nav, left-hand content -->
+      </div> <!-- /.navbar-collapse -->
+    </nav>
+
+    <div class="container">
+      <div class="jumbotron">
+        <h1 id='title'>Log In</h1>
+
+        <h5 id='heading'>Enter you email and password to log in to Coffee Lover</h5>
+      </div>
+
+      <form>
+        <!-- form-group class deals with spacing between form elements -->
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+          <!-- form control class puts the label above the input box and changes styling -->
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox"> Keep Me Logged In
+          </label>
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </div>
+
+  </body>
+</html>

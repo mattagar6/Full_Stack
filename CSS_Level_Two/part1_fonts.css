@@ -1,0 +1,21 @@
+h1{
+  /* using embedded fonts from fonts.google.com */
+  font-family: 'Baloo Bhai', cursive;
+  font-size: 3em;
+  text-align: center;
+}
+
+p{
+  font-family: monospace;
+  font-style: italic;
+  font-weight: bold;
+}
+
+body{
+  /* Defaul font size = 1em */
+  font-size: 20px;
+}
+
+#ptwo{
+  font-size: 1em;
+}

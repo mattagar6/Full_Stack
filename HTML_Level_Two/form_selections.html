@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hotel Feedback</title>
+  </head>
+  <body>
+    <h1>Hotel Feedback Form</h1>
+
+    <form method="get">
+      <h3>Are you from the USA?</h3>
+
+      <!-- Can link input radio buttons by giving them the same name, only allowed to pick one-->
+      <label for="inUSA">Yes:</label>
+      <input id = 'inUSA' type="radio" name="loc" value="yes">
+
+      <label for="outUSA">No:</label>
+      <input id = 'outUSA' type="radio" name="loc" value="no">
+      <!-- Drop down menus -->
+      <h3>How was your service?</h3>
+      <select name="stars">
+        <option value="Great">3</option>
+        <option value="Ok">2</option>
+        <option value="Bad">1</option>
+
+      </select>
+
+      <h3>Any other Feedback?</h3>
+      <textarea name="myText" rows="8" cols="80"></textarea>
+      <br>
+      <input type="submit" name="" value="Submit">
+
+    </form>
+
+  </body>
+</html>
